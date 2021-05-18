@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script async src="control.js"></script>
+
+    <title>Document</title>
+  </head>
+  <!-- TODO: Photo by Torsten Dettlaff from Pexels -->
+  <body>
+    <!-- todo:: make this a responsive flexbox grid (absolutely positions?) with two imgs that will turn into rows at a certain height  -->
+
+    <header class="header">
+      <!-- <span class="header-col" id="title">Complete our survey & Get an</span
+      ><span class="header-col" id="iphone"
+        >IPHONE 12<span id="registered">&#x00AE;</span></span
+      >
+      <hr class="light-hr" />
+      <span class="header-col" id="pro">Pro</span> -->
+      <!-- <img src="/img/title.png" alt="" /> -->
+    </header>
+
+    <div class="quiz-container">
+      <div class="img-container flex-grid">
+        <img
+          src="/img/cropped-square/4.png"
+          class="img"
+          id="phone-img"
+          alt=""
+        />
+        <img
+          src="/img/cell-carriers-square.png"
+          class="img"
+          id="carriers-img"
+          alt=""
+        />
+      </div>
+
+      <div class="question-container">
+        <span class="q-number">1.</span>
+        <span class="q-text">Are youre a dummy?</span>
+      </div>
+
+      <div class="answer-container">
+        <!-- make the "answer-N" class an ID -->
+        <div class="a-box">
+          <button class="button answer-1">yes 100%</button>
+        </div>
+        <div class="a-box">
+          <button class="button answer-2">a little bit ;)</button>
+        </div>
+        <div class="a-box">
+          <button class="button answer-3">rarely</button>
+        </div>
+        <div class="a-box">
+          <button class="button answer-4">absolutely not!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- flex-test start -->
+    <!-- <div class="flex-grid-thirds">
+      <div class="col">box</div>
+      <div class="col">pox</div>
+      <div class="col">sox</div>
+    </div> -->
+    <!-- flex-test end -->
+  </body>
+</html>
