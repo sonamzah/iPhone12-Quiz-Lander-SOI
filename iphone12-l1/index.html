@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- TODO:: make this work for browsers blockign js  -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script async defer src="./control.js"></script>
+
+    <title>iPhone 12</title>
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <div class="quiz-container">
+      <div class="img-container flex-grid">
+        <img src="./img/4.png" class="img" id="phone-img" alt="" />
+        <img
+          src="./img/cell-carriers-square.png"
+          class="img"
+          id="carriers-img"
+          alt=""
+        />
+      </div>
+
+      <div class="question-container">
+        <span class="q-number"></span
+        ><span class="q-text w3-animate-opacity"
+          >Survey failed to load. <br />
+          Verify you are a real human being to enter this
+          <i><b>iPhone 12 Pro</b></i> giveaway<sup class="limited"
+            ><b>*Limited Supply</b></sup
+          >
+        </span>
+      </div>
+      <!-- todo::::::::------1. figure out how/when to hide and trigger the recaptcha 2. minify the imgs--======= === -->
+      <!-- <div class="form-container">
+        <input type="text" class="form-text-input" maxlength="20" />
+      </div> -->
+
+      <div class="bot-check-container">
+        <p class="recaptcha-prompt"><i>Confirm you are human to continue</i></p>
+        <div
+          class="g-recaptcha bot-check"
+          data-sitekey="6LeEJN8aAAAAAL8OcaD-zCkrskNZisJFewILr6-2"
+          data-callback="confirmRecaptcha"
+        ></div>
+      </div>
+      <div class="answer-container">
+        <!-- make the "answer-N" class an ID -->
+        <div class="a-box">
+          <a href="https://www.sweepfox.com/example" class="no-decoration"
+            ><div class="button answer">Continue</div></a
+          >
+          <!-- <button class="button answer" id="answer-1">Begin!</button> -->
+        </div>
+        <!-- <div class="a-box">
+          <button class="button answer" id="answer-2">a little bit ;)</button>
+        </div>
+        <div class="a-box">
+          <button class="button answer" id="answer-3">rarely</button>
+        </div>
+        <div class="a-box">
+          <button class="button answer" id="answer-4">absolutely not!</button>
+        </div> -->
+      </div>
+      <div class="short-cut-container hidden">
+        <p class="short-cut-text"><i>I do not pay for cellular service</i></p>
+      </div>
+      <div class="disclaimer-container hidden">
+        <p class="disclaimer">
+          By submitting your email address, you consent to the use of your
+          survey answers as
+          <i><b>completely anonymous</b></i> data for consumer analysis
+        </p>
+      </div>
+    </div>
+
+    <div class="trust-badge-container">
+      <img
+        src="./img/guarantee_badge.svg"
+        class="trust-badge"
+        alt="Satisfaction Guarantee"
+      />
+    </div>
+
+    <footer class="foot">
+      <div class="privacy">
+        <a href="https://prizefriend.com/go/legal/?t=1&amp;p=7"
+          >Privacy Policy</a
+        >
+      </div>
+      <div class="terms">
+        <a href="https://prizefriend.com/go/legal/?t=1&amp;p=7">Terms</a>
+      </div>
+      <div class="requirements">
+        <a href="https://prizefriend.com/go/legal/?t=1&amp;p=7">Requirements</a>
+      </div>
+      <div class="legal-disclaimer">
+        <p>
+          This is an Advertisement powered by Sweepfox.com, an independent
+          rewards program that is not associated nor endorsed / sponsored by any
+          of the above listed merchants or brands <i>or Prizefriend.com</i>. The
+          above brands and merchants are in no way liable for any alleged or
+          actual claims related to this offer. The above listed trademarks and
+          service marks are the marks of their respective owners. Sweepfox.com
+          is soley responsible for processing consumer survey data. Sweepfox.com
+          then forwards the user to Prizefriend.com for fulfillment.
+          Prizefriend.com is solely responsible for gift fulfillment. By
+          participating, you agree to the Terms & Conditions which includes
+          mandatory arbitration and Privacy Policy which includes your consent
+          to our sharing your personally identifiable information with our
+          Marketing Partners.
+        </p>
+        <p>
+          In order to receive the item(s) as offered (the "Incentive"), you must
+          complete participation requirements which can include taking surveys,
+          requesting information, and purchasing products. This incentive has a
+          maximum value of $500. View our complete participation requirements
+          for more detailed information. You must be over the age of 18 to
+          participate in this promotion.
+        </p>
+        <p>© 2020 Sweepfox.com</p>
+      </div>
+    </footer>
+
+    <!-- flex-test start -->
+    <!-- <div class="flex-grid-thirds">
+      <div class="col">box</div>
+      <div class="col">pox</div>
+      <div class="col">sox</div>
+    </div> -->
+    <!-- flex-test end -->
+  </body>
+</html>

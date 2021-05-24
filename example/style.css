@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  background-color: #10002b;
+}
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  /* background-color: black; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iphone-offer {
+  text-align: center;
+  font-size: large;
+  /* font-family: "Fredoka One", cursive; */
+  /* font-family: "Lobster", cursive; */
+  font-family: "Press Start 2P", cursive;
+}
+#offer-2 {
+  /* color: #ffc6ff;
+  color: #9bf6ff;
+  color: #fffffc; */
+}
+#offer-3 {
+  /* color: #bdb2ff;
+  color: #ffc6ff;
+  color: #9bf6ff; */
+}
+.offer-text {
+  user-select: none;
+  opacity: 1;
+}
+.iphone-img {
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.iphone-img img {
+  width: 25rem;
+  border: 5px solid #5a189a;
+  border-radius: 12px;
+  user-select: none;
+}
+
+/* COLORS */
+.celeste {
+  color: #9bf6ff;
+}
+.baby-powder {
+  color: #fffffc;
+}
+.muave {
+  color: #ffc6ff;
+}
+.lemon-yellow {
+  color: #fdffb6;
+}
+.tea-green {
+  color: #caffbf;
+}
+.baby-blue {
+  color: #a0c4ff;
+}
+.purple-blue {
+  color: #bdb2ff;
+}
+.dark-purple {
+  color: #5a189a;
+}
+@media (max-width: 480px) {
+  .iphone-offer {
+    margin-top: -3rem;
+  }
+}
