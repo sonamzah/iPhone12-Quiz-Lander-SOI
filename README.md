@@ -3,6 +3,8 @@ This is a simple "quiz lander" designed for a client, who promotes sweepstakes C
 
 Built in HTML, CSS & Vanilla JS nothing crazy...
 
+**DEMO VIDEO**: https://www.loom.com/share/906f21e8660149db8e8ddfd3e71ad495 
+
 To load and run this simple site/quiz app download or fork this repo and then
 
 1. Click to open the index.html located in the "iphone12-l1" directory
